@@ -15,7 +15,7 @@ services:
     environment:
       - DB_HOST=db
       - DB_NAME=devDb
-      - DB_USER=debUser
+      - DB_USER=devUser
       - DB_PASSWORD=changeme
     depends_on:
       - db
